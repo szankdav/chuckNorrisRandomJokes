@@ -50,6 +50,10 @@ document.getElementById("random").addEventListener("click", () => {
 
 function formGeneralasa(categories){
     const form = document.createElement('form')
+    form.style.border = "1px solid black"
+    form.style.borderRadius = "5px"
+    form.style.padding = "15px"
+    form.style.backgroundColor = "lightgrey"
     const formDiv = document.createElement('div')
     const label = document.createElement('label')
     label.htmlFor = "kategoria"
